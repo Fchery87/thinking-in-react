@@ -1,16 +1,15 @@
-import FilterableProductTable from './components/FilterableProductTable';
+import FilterableProductTable from './components/FilterableProductTable/FilterableProductTable';
 
-import './App.css'
+import './App.css';
 
 function App() {
-
   return (
     <>
       <div>
-      <FilterableProductTable />
-    </div>
+        <FilterableProductTable />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

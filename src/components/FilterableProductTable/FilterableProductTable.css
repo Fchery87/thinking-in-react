@@ -1,0 +1,7 @@
+.FilterableProductTable {
+  border: 2px solid grey;
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+  /* box-sizing: border-box; */
+}

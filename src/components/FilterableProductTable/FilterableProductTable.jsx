@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import SearchBar from './SearchBar';
-import ProductTable from './ProductTable';
+import SearchBar from '../SearchBar/SearchBar';
+import ProductTable from '../ProductTable/ProductTable';
+import './FilterableProductTable.css';
 
 function FilterableProductTable() {
   const [filterText, setFilterText] = useState('');
@@ -16,7 +17,7 @@ function FilterableProductTable() {
   ];
 
   return (
-    <div>
+    <div className="FilterableProductTable">
       <SearchBar
         filterText={filterText}
         inStockOnly={inStockOnly}

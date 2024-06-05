@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
-import ProductCategoryRow from './ProductCategoryRow';
-import ProductRow from './ProductRow';
+import ProductCategoryRow from '../ProductCategoryRow/ProductCategoryRow';
+import ProductRow from '../ProductRow/ProductRow';
+import './ProductTable.css';
 
 function ProductTable({ products, filterText, inStockOnly }) {
   const rows = [];
@@ -29,7 +30,7 @@ function ProductTable({ products, filterText, inStockOnly }) {
   });
 
   return (
-    <table>
+    <table className="ProductTable">
       <thead>
         <tr>
           <th>Name</th>

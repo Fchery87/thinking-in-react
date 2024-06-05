@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './ProductRow.css';
 
 function ProductRow({ product }) {
   const name = product.stocked ? 
@@ -8,7 +9,7 @@ function ProductRow({ product }) {
     </span>;
 
   return (
-    <tr>
+    <tr className="ProductRow">
       <td>{name}</td>
       <td>{product.price}</td>
     </tr>

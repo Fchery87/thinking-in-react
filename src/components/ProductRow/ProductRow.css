@@ -1,0 +1,9 @@
+.ProductRow {
+  border: 2px solid yellow;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.ProductRow span {
+  color: red;
+}

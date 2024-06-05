@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import './SearchBar.css';
 
 function SearchBar({ filterText, inStockOnly, onFilterTextChange, onInStockChange }) {
   return (
-    <form>
+    <form className="SearchBar">
       <input
         type="text"
         placeholder="Search..."
